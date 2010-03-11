@@ -1,0 +1,2 @@
+#/bin/bash
+rsync -avzL --exclude '*.mod' --exclude '*.o' --exclude '*.ps' --exclude '*.eps' ~/code/mhd3d/ superdarn@fitacf.newcastle.edu.au:~/mhd3d
